@@ -111,7 +111,7 @@ section .center-content {
 main {
 	text-align: center;
 	background: #f1f1f1;
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 100px;
 }
 article .center-content h1 {
@@ -160,6 +160,9 @@ main article .row .right-content {
 	align-items: center;
 }
 
+main aside {
+	padding-top: 120px;
+}
 main aside .card {
 	color: white;
 	margin: 0 auto;
@@ -306,7 +309,13 @@ footer .container {
 	footer .container {
 		padding: 25px;
 	}
-
+	main {
+		padding-top: 60px;
+	}
+	main aside {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
 	section .center-content {
 		top: 43%;
 	}
